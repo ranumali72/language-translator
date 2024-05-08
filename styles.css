@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ceb5ec;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+h1 {
+    text-align: center;
+    color: #010101;
+}
+
+textarea {
+    width: 96%;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(236, 229, 229);
+    border: 1px solid rgb(236, 229, 229);
+    border-radius: 6px;
+    resize: vertical;
+}
+/* #hh{
+    margin: 0;
+
+} */
+.select-wrapper{
+    margin-left: 11%;
+}
+
+/* Style for the dropdown */
+.select-wrapper select {
+    
+    width: 200px; /* Adjust width as needed */
+    height: 40px;
+    padding: 8px;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #6311c8;
+    border-radius: 20px;
+    appearance: none; /* Remove default arrow */
+    -webkit-appearance: none; /* Remove default arrow for Safari */
+    background-color: #6311c8;
+    cursor: pointer;
+}
+.select-wrapper select:hover{
+    background-color: #5107aa;
+}
+/* Style for the dropdown options */
+.select-wrapper select option {
+    padding: 8px;
+}
+
+/* Style for the selected option */
+.select-wrapper select option:checked {
+    background-color: #100f0f;
+}
+
+
+span {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.output {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: rgb(236, 229, 229);
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 10px;
+    min-height: 50px;
+}
