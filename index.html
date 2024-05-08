@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Translation Application</h1>
+        <textarea id="inputText" placeholder="Enter text to translate..."></textarea>
+        <div class="select-wrapper">
+            
+            <select id="sourceLang">
+                                <!-- Placeholder option for source language -->
+                <option value="" disabled selected>Select Source Language</option>
+                <!-- The JavaScript code will populate the options here -->
+            </select>
+            <span>➡️</span>
+            <select id="targetLang">
+                <!-- Placeholder option for target language -->
+                <option value="" disabled selected>Select Target Language</option>
+                <!-- The JavaScript code will populate the options here -->
+            </select>
+        </div>
+        <div id="outputText" class="output"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
